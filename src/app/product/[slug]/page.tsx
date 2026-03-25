@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props) {
   if (!product) return { title: "Not Found" };
   return {
     title: `${product.name} — NERDMERCH`,
-    description: product.description,
+    description: product.tagline,
   };
 }
 

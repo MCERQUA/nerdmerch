@@ -1,0 +1,45 @@
+{
+  "project": "nerdmerch",
+  "status": "failed",
+  "currentPhase": "research",
+  "phases": {
+    "research": {
+      "status": "failed",
+      "startedAt": "2026-03-23T05:32:00Z",
+      "completedAt": null,
+      "error": "Build timed out during research phase. Last updated: 2026-03-23T05:32:00Z. To retry, use /website-build command."
+    },
+    "scaffold": {
+      "status": "pending",
+      "startedAt": null,
+      "completedAt": null,
+      "tasks": []
+    },
+    "design-system": {
+      "status": "pending",
+      "startedAt": null,
+      "completedAt": null,
+      "tasks": []
+    },
+    "build-pages": {
+      "status": "pending",
+      "startedAt": null,
+      "completedAt": null,
+      "tasks": []
+    },
+    "quality-gate": {
+      "status": "pending",
+      "startedAt": null,
+      "completedAt": null,
+      "tasks": []
+    },
+    "deploy": {
+      "status": "pending",
+      "startedAt": null,
+      "completedAt": null,
+      "tasks": []
+    }
+  },
+  "lastUpdated": "2026-03-23T15:03:00Z",
+  "error": "Build timed out after 9+ hours during research phase. Say 'resume the build' to retry with /website-build command."
+}

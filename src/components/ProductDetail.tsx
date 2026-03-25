@@ -70,7 +70,7 @@ export function ProductDetail({ product }: Props) {
           <span className="text-xs font-bold text-[#22c55e] bg-[#22c55e]/10 px-3 py-1 rounded-full border border-[#22c55e]/30 uppercase tracking-wider">Save 43%</span>
         </div>
 
-        <p className="text-[#b3b3b3] leading-relaxed mt-8">{product.description}</p>
+        <p className="text-[#b3b3b3] leading-relaxed mt-8">{product.tagline}</p>
 
         {/* Size selector */}
         <div className="mt-10">

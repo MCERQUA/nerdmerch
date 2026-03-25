@@ -31,6 +31,7 @@ export default function RootLayout({
               <a href="/shop?cat=dev-humor" className="text-sm font-medium text-[#b3b3b3] hover:text-[#22c55e] transition-colors uppercase tracking-wider">Dev Humor</a>
               <a href="/shop?cat=ai-culture" className="text-sm font-medium text-[#b3b3b3] hover:text-[#22c55e] transition-colors uppercase tracking-wider">AI Culture</a>
               <a href="/shop?cat=spicy" className="text-sm font-medium text-[#b3b3b3] hover:text-[#22c55e] transition-colors uppercase tracking-wider">Spicy</a>
+              <a href="/blog" className="text-sm font-medium text-[#b3b3b3] hover:text-[#22c55e] transition-colors uppercase tracking-wider">Blog</a>
             </div>
             <a href="/cart" className="relative group">
               <div className="w-11 h-11 rounded-xl border border-white/10 bg-[#1a1a1a] flex items-center justify-center hover:border-[#22c55e]/50 transition-all duration-300 hover:shadow-[0_0_15px_rgba(34,197,94,0.2)]">
@@ -77,6 +78,7 @@ export default function RootLayout({
                   <a href="/shop?cat=dev-humor" className="text-sm text-[#b3b3b3] hover:text-[#22c55e] transition-colors">Dev Humor</a>
                   <a href="/shop?cat=ai-culture" className="text-sm text-[#b3b3b3] hover:text-[#22c55e] transition-colors">AI Culture</a>
                   <a href="/shop?cat=spicy" className="text-sm text-[#b3b3b3] hover:text-[#22c55e] transition-colors">Spicy</a>
+                  <a href="/blog" className="text-sm text-[#b3b3b3] hover:text-[#22c55e] transition-colors">Blog</a>
                 </div>
               </div>
               <div>
